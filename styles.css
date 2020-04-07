@@ -38,9 +38,10 @@
   width: 30px;
 }
 
-.left_nav .logo .logo_txt {
+.logo_txt {
   font-family: Helvetica Neue, Arial, sans-serif;
   margin-left: 5px;
+  color: white;
 }
 
 .menu {
@@ -69,7 +70,7 @@
 }
 
 .menu i {
-  font-size: 7px;
+  font-size: 9px;
 }
 
 .right_nav {
@@ -110,8 +111,29 @@
 .hero .with_bg {
   width: 900px;
   height: 100%;
-  border: 1px solid blue;
   background-image: url("images/LogoTransparent.png");
   background-repeat: no-repeat;
-  background-size: 60% 100%;
+  background-size: 40% 100%;
+}
+
+.with_bg,
+.hero_txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero_txt h4 {
+  margin-top: 10px;
+  color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+}
+
+.hero .search_box {
+  width: 100%;  
+  background-color: white;
+  height: 50px;
+
 }
