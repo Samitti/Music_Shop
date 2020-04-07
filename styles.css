@@ -167,7 +167,7 @@
 section {
   display: flex;
   justify-content: space-around;
-  border-bottom: 0.5px solid #888888;
+  border-bottom: 1px solid #888888;
 }
 
 .hot_ads {
@@ -263,6 +263,11 @@ section {
   background-color: #383838;
   color: #d35266;
   padding: 2px 5px 2px 5px;
+}
+
+.section1 {
+  background-color: #f0efef;
+  height: 300px;
 }
 
 
