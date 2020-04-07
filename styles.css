@@ -167,7 +167,7 @@
 section {
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid #888888;
+  border-bottom: 0.5px solid #888888;
 }
 
 .hot_ads {
@@ -248,14 +248,15 @@ section {
 }
 
 .ad_img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   background-image: url("https://esommusicstore.com/wp-content/uploads/2019/11/Yamaha-Gigmaker-drums-web-300x300.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
+  margin-bottom: 10px;
 }
 
 .ad_img div {
