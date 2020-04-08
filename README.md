@@ -13,7 +13,6 @@ This project is a part of the Microverse course HTML and CSS capstone project. I
 - Flexbox
 
 [Live Demo Link](https://raw.githack.com/Samitti/Music_Shop/music_shop/index.html)
-[Live Demo Link](https://raw.githack.com/Samitti/Music_Shop/music_shop/search.html)
 
 
 ## About
