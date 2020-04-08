@@ -69,6 +69,10 @@
   border-radius: 2px;
 }
 
+.left_nav .btn_post i {
+  font-size: 15px;
+}
+
 .menu i {
   font-size: 9px;
 }
@@ -169,7 +173,6 @@
 section {
   display: flex;
   justify-content: space-around;
-  border-bottom: 1px solid #888888;
 }
 
 .hot_ads {
