@@ -373,10 +373,9 @@ footer {
 }
 
 .foot_resize {
-  width: 900px;
+  width: 768px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .foot_resize .foot_about {
@@ -443,6 +442,54 @@ footer {
 .copy_right .logo img {
   width: 15px;
   height: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .right_nav {
+    display: none;
+  }
+  .left_nav .btn_post {
+    display: none;
+  }
+
+  .left_nav {
+    width: 100%;
+    padding-left: 2%;
+    padding-right: 5%;
+  }
+
+  .hero {
+    display: none;
+  }
+
+  .hot_ads {
+    display: none;
+  }
+
+  .item_catagory {
+    width:90%;    
+  }
+
+  .items {
+    width: 45%;
+    height: 40%;
+    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px;   
+  }
+
+  .item_list {
+    flex-wrap: wrap;
+  }
+
+  .item_list .slider_btn_left,
+  .item_list .slider_btn_right {
+    display: none;
+  }
+
+  .foot_resize {
+    width: 90%
+  }
 }
 
 
