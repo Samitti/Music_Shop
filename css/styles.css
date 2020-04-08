@@ -134,9 +134,9 @@
 .hero .with_bg {
   width: 900px;
   height: 100%;
-  background-image: url("images/LogoTransparent.png");
+  background-image: url("../images/LogoTransparent.png");
   background-repeat: no-repeat;
-  background-size: 40% 100%;
+  background-size: 30% 100%;
 }
 
 .hero_txt h4 {
