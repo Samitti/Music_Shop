@@ -16,7 +16,7 @@
   width: 900px;
   height: 30px;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   padding: 0 5px 0 5px;
 }
 
@@ -110,7 +110,7 @@
   background-color: #d35266;
   display: flex;
   justify-content: space-around;
-  }
+}
 
 .hero .with_bg {
   width: 900px;
@@ -136,7 +136,7 @@
 }
 
 .hero .search_box {
-  width:768px;
+  width: 768px;
   height: 40px;
   display: flex;
 }
@@ -177,7 +177,7 @@ section {
 .hot_ads {
   width: 768px;
   margin-top: 10px;
-  margin-bottom: 10px;  
+  margin-bottom: 10px;
 }
 
 .slider {
@@ -193,7 +193,7 @@ section {
   border: 1px solid #888;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 .slider_btn a {
@@ -279,7 +279,7 @@ section {
 }
 
 .item_catagory {
-  width:768px;
+  width: 768px;
   display: flex;
   flex-direction: column;
   margin-bottom: 70px;
@@ -289,7 +289,7 @@ section {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  border-bottom: 1px solid #888;  
+  border-bottom: 1px solid #888;
 }
 
 .item_name i {
@@ -301,7 +301,7 @@ section {
 
 .item_name .item_heading {
   font-size: 20px;
-  color: #888;  
+  color: #888;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -378,16 +378,16 @@ footer {
 }
 
 .foot_resize .foot_about {
-   width: 60%;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .foot_resize .foot_about .logo {
   display: flex;
   margin-top: 50px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .foot_resize .foot_about .logo img {
@@ -447,6 +447,7 @@ footer {
   .right_nav {
     display: none;
   }
+
   .left_nav .btn_post {
     display: none;
   }
@@ -466,7 +467,7 @@ footer {
   }
 
   .item_catagory {
-    width:90%;    
+    width: 90%;
   }
 
   .items {
@@ -474,7 +475,7 @@ footer {
     height: 40%;
     padding-bottom: 5px;
     margin-top: 50px;
-    margin-bottom: 50px;   
+    margin-bottom: 50px;
   }
 
   .item_list {
@@ -490,11 +491,3 @@ footer {
     width: 90%
   }
 }
-
-
-
-
-
-
-
-
