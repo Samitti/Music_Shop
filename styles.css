@@ -144,6 +144,7 @@
   align-items: center;
   padding: 5px;
   color: #383838;
+  cursor: pointer;
 }
 
 .hero .search_box .catagory {
@@ -162,6 +163,7 @@
   width: 100px;
   margin-left: 20px;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 section {
@@ -241,6 +243,7 @@ section {
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   border-left: 1px solid #888888;
+  cursor: pointer;
 }
 
 .price_btn i {
