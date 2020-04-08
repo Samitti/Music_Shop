@@ -2,8 +2,9 @@
 
 This project is a part of the Microverse course HTML and CSS capstone project. In this project I used a prototype electronics shop design and customize it to my music shop website.
 
-![screenshot 1](images/search_screen_shot.png) 
 ![screenshot 1](images/home_screen_shoot.png) 
+![screenshot 1](images/search_screen_shot.png) 
+
 
 ## Built With
 
