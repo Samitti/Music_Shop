@@ -17,7 +17,7 @@ This project is a part of the Microverse course HTML and CSS capstone project. I
 
 ## About
 
-Th aim of the project is to build a responsive web page using all the skils we have learned on HTML and CSS. I am suposed to use a provided prototype of electronisc shop website and castomise it to my own music shop website. There are two pages for this project, the home page and the search result page. They are also responsive for smaller screen sizes.
+The aim of the project is to build a responsive web page using all the skils we have learned on HTML and CSS. I am suposed to use a provided prototype of electronisc shop website and castomise it to my own music shop website. There are two pages for this project, the home page and the search result page. They are also responsive for smaller screen sizes.
 
 ## Author
 
