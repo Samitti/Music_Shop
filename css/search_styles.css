@@ -3,11 +3,19 @@
   margin: 0;
 }
 
+.ds_flx {
+  display: flex;
+}
+
+.ds_flx_col {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav_bar {
   background-color: #383838;
   height: 50px;
   width: 100%;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -15,20 +23,17 @@
 .nav_resize {
   width: 900px;
   height: 30px;
-  display: flex;
   justify-content: space-between;
   padding: 0 5px 0 5px;
 }
 
 .left_nav {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 70%;
 }
 
 .left_nav .logo {
-  display: flex;
   align-items: center;
   color: white;
   font-style: Helvetica Neue;
@@ -56,7 +61,6 @@
 
 .menu {
   text-decoration: none;
-  display: flex;
   align-items: center;
   color: #888;
   font-family: Helvetica Neue, Arial, sans-serif;
@@ -89,26 +93,17 @@
   margin-right: 5px;
 }
 
-.item_name i {
-  font-size: x-large;
-  color: #888;
-  margin-right: 10px;
-  margin-bottom: 10px;
-}
-
 .left_nav .btn_post i {
   font-size: 15px;
 }
 
 .right_nav {
-  display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 30%;
 }
 
 .right_nav .social_link {
-  display: flex;
   align-items: center;
   color: white;
   text-decoration: none;
@@ -119,14 +114,11 @@
   width: 100%;
   height: 25vh;
   background-color: #d35266;
-  display: flex;
   justify-content: space-around;
 }
 
 .with_bg,
 .hero_txt {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
 }
 
@@ -148,12 +140,10 @@
 .hero .search_box {
   width: 768px;
   height: 40px;
-  display: flex;
 }
 
 .fa-caret-down {
   background-color: white;
-  display: flex;
   align-items: center;
   padding: 5px;
   color: #383838;
@@ -189,27 +179,6 @@ section {
   margin-bottom: 10px;
 }
 
-.slider {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.slider_btn {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: 1px solid #888;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.slider_btn a {
-  color: #d35266;
-  text-decoration: none;
-}
-
 .heading_red {
   color: #d35266;
   margin-bottom: 10px;
@@ -228,22 +197,6 @@ section {
   margin-bottom: 10px;
 }
 
-.order_btn {
-  background-color: #d35266;
-  width: 180px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 5px;
-  color: white;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.order_btn span {
-  display: flex;
-  align-items: center;
-}
-
 .price_btn {
   background-color: #d35266;
   height: 30px;
@@ -258,41 +211,60 @@ section {
   cursor: pointer;
 }
 
-.ad_img {
-  width: 150px;
-  height: 150px;
-  background-image: url("https://esommusicstore.com/wp-content/uploads/2019/11/Yamaha-Gigmaker-drums-web-300x300.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-bottom: 10px;
-}
-
-.ad_img div {
-  background-color: #383838;
-  color: #d35266;
-  padding: 2px 5px 2px 5px;
-}
-
 .section1 {
   background-color: #f0efef;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
+}
+
+.left_selection {
+  width:230px;
+  padding: 40px 40px 20px 30px;
+}
+
+.right_selection {
+  width: 20%;
+}
+
+.left_selection hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.left_selection h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin-bottom: 3px;
+  margin-right: 5px;
+  margin-top: 10px;
+  color: #383838;
+}
+
+.check_items .myCheck {
+  margin-right: 20px;
+  margin-left: 10px;
+  transform: scale(2, 2);
+  border: none;
+  margin-bottom: 30px;  
+}
+
+.check_items label {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #888;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.check_items .custom_size {
+  height: 20px;
+  text-align: center;
 }
 
 .item_catagory {
   width: 768px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 70px;
+  border-left: 1px solid #888;
 }
 
 .item_name {
-  display: flex;
   justify-content: space-between;
   width: 100%;
   border-bottom: 1px solid #888;
@@ -303,10 +275,8 @@ section {
   color: #888;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
-}
-
-.item_name div {
-  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
 }
 
 .item_name a {
@@ -316,8 +286,7 @@ section {
 .item_list {
   width: 100%;
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
+  margin-left: 20px;
   justify-content: space-between;
   align-items: center;
 }
@@ -334,8 +303,8 @@ section {
   width: 100%;
   height: 250px;
   background-color: white;
-  display: flex;
   margin-bottom: 30px;
+  margin-right: 20px;
 }
 
 .items h5 {
@@ -346,24 +315,29 @@ section {
 
 .items p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #888;
+  margin: 10px 5px 10px 5px;
+}
+
+.items h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
   margin-bottom: 3px;
   margin-left: 5px;
   margin-right: 5px;
+  color: #383838;
 }
 
 .items .details {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   width: 100%;
   margin-left: 5px;
   margin-right: 5px;
-  padding: 40px;
+  padding: 20px 20px 20px 10px;
 }
 
 .items .details .add_chart {
-  display: flex;
   justify-content: space-between;
 }
 
@@ -377,23 +351,15 @@ footer {
 
 .foot_resize {
   width: 768px;
-  display: flex;
   justify-content: space-between;
 }
 
 .foot_resize .foot_about {
   width: 60%;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
-.copy_right .logo {
-  display: flex;
-}
-
 .foot_resize .foot_about .logo {
-  display: flex;
   margin-top: 50px;
   margin-bottom: 20px;
 }
@@ -442,7 +408,6 @@ footer {
   height: 50px;
   background-color: #383838;
   color: #888;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -470,6 +435,10 @@ footer {
     display: none;
   }
 
+  .left_selection {
+    display: none;
+  }
+
   .item_catagory {
     width: 90%;
   }
@@ -493,5 +462,11 @@ footer {
 
   .foot_resize {
     width: 90%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .right_selection {
+    display: none;
   }
 }

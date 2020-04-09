@@ -3,11 +3,19 @@
   margin: 0;
 }
 
+.ds_flx {
+  display: flex;
+}
+
+.ds_flx_col {
+  display: flex;
+  flex-direction: column;
+}
+
 .nav_bar {
   background-color: #383838;
   height: 50px;
   width: 100%;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
@@ -15,20 +23,17 @@
 .nav_resize {
   width: 900px;
   height: 30px;
-  display: flex;
   justify-content: space-between;
   padding: 0 5px 0 5px;
 }
 
 .left_nav {
-  display: flex;
   align-items: center;
   justify-content: space-between;
   width: 70%;
 }
 
 .left_nav .logo {
-  display: flex;
   align-items: center;
   color: white;
   font-style: Helvetica Neue;
@@ -44,6 +49,10 @@
   width: 100%;
 }
 
+.items button {
+  margin-bottom: 7px;
+}
+
 .left_nav .logo img {
   width: 30px;
 }
@@ -56,7 +65,6 @@
 
 .menu {
   text-decoration: none;
-  display: flex;
   align-items: center;
   color: #888;
   font-family: Helvetica Neue, Arial, sans-serif;
@@ -101,14 +109,12 @@
 }
 
 .right_nav {
-  display: flex;
   align-items: center;
   justify-content: flex-end;
   width: 30%;
 }
 
 .right_nav .social_link {
-  display: flex;
   align-items: center;
   color: white;
   text-decoration: none;
@@ -119,14 +125,11 @@
   width: 100%;
   height: 45vh;
   background-color: #d35266;
-  display: flex;
   justify-content: space-around;
 }
 
 .with_bg,
 .hero_txt {
-  display: flex;
-  flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
@@ -154,7 +157,6 @@
 
 .fa-caret-down {
   background-color: white;
-  display: flex;
   align-items: center;
   padding: 5px;
   color: #383838;
@@ -191,7 +193,6 @@ section {
 }
 
 .slider {
-  display: flex;
   align-items: center;
   justify-content: space-between;
 }
@@ -201,7 +202,6 @@ section {
   height: 30px;
   border-radius: 50%;
   border: 1px solid #888;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
@@ -231,7 +231,6 @@ section {
 .order_btn {
   background-color: #d35266;
   width: 180px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
@@ -240,7 +239,6 @@ section {
 }
 
 .order_btn span {
-  display: flex;
   align-items: center;
 }
 
@@ -264,7 +262,6 @@ section {
   background-image: url("https://esommusicstore.com/wp-content/uploads/2019/11/Yamaha-Gigmaker-drums-web-300x300.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  display: flex;
   justify-content: flex-end;
   align-items: flex-end;
   margin-bottom: 10px;
@@ -278,21 +275,16 @@ section {
 
 .section1 {
   background-color: #f0efef;
-  display: flex;
-  flex-direction: column;
   align-items: center;
   padding-top: 20px;
 }
 
 .item_catagory {
   width: 768px;
-  display: flex;
-  flex-direction: column;
   margin-bottom: 70px;
 }
 
 .item_name {
-  display: flex;
   justify-content: space-between;
   width: 100%;
   border-bottom: 1px solid #888;
@@ -315,7 +307,6 @@ section {
 .item_list {
   width: 100%;
   margin-top: 20px;
-  display: flex;
   justify-content: space-between;
   align-items: center;
 }
@@ -332,8 +323,6 @@ section {
   width: 22%;
   height: 250px;
   background-color: white;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
@@ -374,8 +363,6 @@ footer {
 
 .foot_resize .foot_about {
   width: 60%;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -433,7 +420,6 @@ footer {
   height: 50px;
   background-color: #383838;
   color: #888;
-  display: flex;
   justify-content: space-around;
   align-items: center;
 }
