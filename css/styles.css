@@ -7,11 +7,6 @@
   display: flex;
 }
 
-.ds_flx_col {
-  display: flex;
-  flex-direction: column;
-}
-
 .nav_bar {
   background-color: #383838;
   height: 50px;
@@ -120,6 +115,12 @@
   text-decoration: none;
   font-family: Helvetica Neue, Arial, sans-serif;
 }
+
+.ds_flx_col {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .hero {
   width: 100%;

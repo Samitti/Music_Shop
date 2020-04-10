@@ -7,11 +7,6 @@
   display: flex;
 }
 
-.ds_flx_col {
-  display: flex;
-  flex-direction: column;
-}
-
 .nav_bar {
   background-color: #383838;
   height: 50px;
@@ -128,6 +123,11 @@
   background-image: url("images/LogoTransparent.png");
   background-repeat: no-repeat;
   background-size: 40% 100%;
+}
+
+.ds_flx_col {
+  display: flex;
+  flex-direction: column;
 }
 
 .hero_txt h4 {
