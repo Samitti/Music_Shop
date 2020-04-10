@@ -1,9 +1,9 @@
 # Music_Shop
 
-This project is a part of the Microverse course HTML and CSS capstone project. In this project I used a prototype electronics shop design and customize it to my music shop website.
+This is the HTML and CSS capstone project. It consists of building a responsive website for music shop . It has two  responsive pages- a Homepage and Search result page.
 
-![screenshot 1](images/home_screen_shoot.png) 
-![screenshot 1](images/search_screen_shot.png) 
+![screenshot 1](images/homePage2.png) 
+![screenshot 1](images/searchResult2.png) 
 
 
 ## Built With
@@ -13,11 +13,6 @@ This project is a part of the Microverse course HTML and CSS capstone project. I
 - Flexbox
 
 [Live Demo Link](https://raw.githack.com/Samitti/Music_Shop/music_shop/index.html)
-
-
-## About
-
-The aim of the project is to build a responsive web page using all the skils we have learned on HTML and CSS. I am suposed to use a provided prototype of electronisc shop website and castomise it to my own music shop website. There are two pages for this project, the home page and the search result page. They are also responsive for smaller screen sizes.
 
 ## Author
 
@@ -36,6 +31,3 @@ Feel free to check the [issues page](https://github.com/Samitti/Newsweek-clone/i
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-
-
