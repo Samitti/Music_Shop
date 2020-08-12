@@ -20,7 +20,7 @@ This is the HTML and CSS capstone project. It consists of building a responsive 
 
 - Github: [@githubhandle](https://github.com/Samitti)
 - Twitter: [@twitterhandle](https://twitter.com/Samuel63734232)
-- Linkedin: [linkedin](https://www.linkedin.com/in/samuel-ghebremeskel-29685811a/)
+- Linkedin: [linkedin](https://www.linkedin.com/in/samuelghebremeskel/)
 
 ## 🤝 Contributing
 
